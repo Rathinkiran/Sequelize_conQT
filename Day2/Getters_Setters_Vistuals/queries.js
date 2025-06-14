@@ -20,7 +20,7 @@ const { User, Post } = require('./model');
     console.log('Full name (virtual):', user.fullName);
 
     const post = await Post.create({
-      content: 'Hello everyone! This is a test message.',
+      content: 'Hello everyone! This is a message.',
     });
 
     console.log('Post content (getter after unzip):', post.content);
